@@ -1,0 +1,18 @@
+dataset_id,dataset_name,license,access_type,commercial_use,retention_policy
+DS-CB-01,CyberbullyX-63K,Public Academic / Research Use,ACADEMIC_RESEARCH,RESEARCH_ONLY,PRESERVE
+DS-CB-02,Kaggle Cyberbullying Tweets,CC0: Public Domain,OPEN,ALLOWED,PRESERVE
+DS-CB-03,Hinglish Codemixed Dataset,Public Academic / Research Open Access,ACADEMIC_RESEARCH,RESEARCH_ONLY,PRESERVE
+DS-CB-04,Jigsaw Toxic Comment (Train),CC0: Public Domain,OPEN,ALLOWED,PRESERVE
+DS-CB-05,Jigsaw Toxic Comment (Test & Labels),CC0: Public Domain,OPEN,ALLOWED,PRESERVE
+DS-CB-06,MultiOFF Meme Dataset,Public Academic / Research Use,ACADEMIC_RESEARCH,RESEARCH_ONLY,PRESERVE
+DS-CB-07,M3 Twitter Memes,MIT License,OPEN,ALLOWED,PRESERVE
+DS-CB-08,Facebook Hateful Memes (Dev),Meta AI Research Agreement,ACADEMIC_RESEARCH,RESEARCH_ONLY,PRESERVE
+DS-CB-09,Synthetic CyberGuard Multilingual,Internal Project License,ACADEMIC_RESEARCH,RESEARCH_ONLY,PRESERVE
+DS-CB-10,Zenodo Russian Toxic Memes,CC-BY 4.0,OPEN,RESEARCH_ONLY,PRESERVE
+DS-CB-11,Archive.zip 25K Hinglish (Tiled),Unknown / Unverified,ACADEMIC_RESEARCH,RESEARCH_ONLY,PRESERVE
+DS-WB-01,Reddit LoST v1,Academic Research Use,ACADEMIC_RESEARCH,RESEARCH_ONLY,PRESERVE
+DS-WB-02,Reddit LoST Final Train,Academic Research Use,ACADEMIC_RESEARCH,RESEARCH_ONLY,PRESERVE
+DS-WB-03,Reddit LoST Final Test,Academic Research Use,ACADEMIC_RESEARCH,RESEARCH_ONLY,PRESERVE
+DS-WB-04,Reddit Suicide vs Depression,Public Academic / Research Use,ACADEMIC_RESEARCH,RESEARCH_ONLY,PRESERVE
+DS-WB-05,GoEmotions Subset,Apache 2.0,OPEN,ALLOWED,PRESERVE
+DS-WB-06,Synthetic Support Wellbeing Prompts,Internal Project License,ACADEMIC_RESEARCH,RESEARCH_ONLY,PRESERVE

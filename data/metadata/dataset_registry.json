@@ -1,0 +1,806 @@
+[
+  {
+    "dataset_id": "DS-CB-01",
+    "dataset_name": "CyberbullyX-63K",
+    "domain": "CYBERBULLYING",
+    "source_url": "https://github.com/CyberBullyX / Twitter Stream API",
+    "local_path": "C:\\Users\\vivek\\Documents\\aml\\cyberbullying_dataset\\CyberbullyX-63K.xlsx",
+    "source_type": "REAL_EXTERNAL",
+    "license": "Research & Educational Use Only",
+    "access_type": "PUBLIC_ACADEMIC",
+    "language": [
+      "Hindi",
+      "English",
+      "Hinglish"
+    ],
+    "modality": "TEXT_ONLY",
+    "record_count": 63145,
+    "original_labels": [
+      "0",
+      "1"
+    ],
+    "label_definitions": {
+      "0": "Non-cyberbullying",
+      "1": "Cyberbullying"
+    },
+    "timestamp_available": true,
+    "platform": "Twitter / X",
+    "task": "Binary Social Media Cyberbullying Classification",
+    "status": "AVAILABLE",
+    "training_status": "STAGED_FOR_EXPANDED_TRAINING",
+    "evaluation_status": "PENDING",
+    "duplicate_rate": 0.0068,
+    "quality_notes": "Clean real Twitter posts from June 2020 onwards; 60.7% Hindi/Hinglish, 39.1% English. Excellent linguistic diversity.",
+    "license_notes": "Anonymized tweet research collection for non-commercial academic research.",
+    "provenance": "Supplied in local project archive C:\\Users\\vivek\\Documents\\aml\\cyberbullying_dataset\\CyberbullyX-63K.xlsx",
+    "dataset_version": "CyberbullyX-63K-v1"
+  },
+  {
+    "dataset_id": "DS-CB-02",
+    "dataset_name": "Kaggle Cyberbullying Tweets (Wang et al.)",
+    "domain": "CYBERBULLYING",
+    "source_url": "https://www.kaggle.com/datasets/andrewmvd/cyberbullying-classification",
+    "local_path": "C:\\Users\\vivek\\Documents\\aml\\cyberbullying_dataset\\kaggledataset.zip::cyberbullying_tweets.csv",
+    "source_type": "REAL_EXTERNAL",
+    "license": "CC0: Public Domain",
+    "access_type": "OPEN_PUBLIC",
+    "language": [
+      "English"
+    ],
+    "modality": "TEXT_ONLY",
+    "record_count": 47692,
+    "original_labels": [
+      "religion",
+      "age",
+      "gender",
+      "ethnicity",
+      "not_cyberbullying",
+      "other_cyberbullying"
+    ],
+    "label_definitions": {
+      "religion": "Cyberbullying targeted at religion or faith",
+      "age": "Cyberbullying targeted at age/generation",
+      "gender": "Cyberbullying targeted at gender identity/sexism",
+      "ethnicity": "Cyberbullying targeted at race/ethnicity",
+      "not_cyberbullying": "Benign / non-violating content",
+      "other_cyberbullying": "General unclassified cyberbullying"
+    },
+    "timestamp_available": false,
+    "platform": "Twitter",
+    "task": "Multi-class Cyberbullying Categorization",
+    "status": "AVAILABLE",
+    "training_status": "STAGED_FOR_EXPANDED_TRAINING",
+    "evaluation_status": "PENDING",
+    "duplicate_rate": 0.0357,
+    "quality_notes": "Balanced 6-class distribution (~7,950 records per class). 1,701 natural retweets to be deduplicated.",
+    "license_notes": "Freely usable under CC0 Public Domain.",
+    "provenance": "Extracted in-memory from kaggledataset.zip supplied in local archive.",
+    "dataset_version": "Kaggle-CB-Tweets-v1"
+  },
+  {
+    "dataset_id": "DS-CB-03",
+    "dataset_name": "Hinglish Codemixed Cyberbullying (Paper 4989)",
+    "domain": "CYBERBULLYING",
+    "source_url": "Academic Paper: Cyberbullying Detection in a Multi-classification Codemixed Dataset (4989-10831-1-PB.pdf)",
+    "local_path": "C:\\Users\\vivek\\Documents\\aml\\cyberbullying_dataset\\final_dataset_hinglish.csv",
+    "source_type": "REAL_EXTERNAL",
+    "license": "Research Open Access",
+    "access_type": "PUBLIC_ACADEMIC",
+    "language": [
+      "Hinglish",
+      "English"
+    ],
+    "modality": "TEXT_ONLY",
+    "record_count": 18148,
+    "original_labels": [
+      "-1",
+      "0"
+    ],
+    "label_definitions": {
+      "-1": "Cyberbullying / Hostile Comment",
+      "0": "Neutral / Non-cyberbullying"
+    },
+    "timestamp_available": false,
+    "platform": "YouTube / Twitter / Bollywood Forums",
+    "task": "Binary Hinglish Cyberbullying Detection",
+    "status": "AVAILABLE",
+    "training_status": "STAGED_FOR_EXPANDED_TRAINING",
+    "evaluation_status": "PENDING",
+    "duplicate_rate": 0.0597,
+    "quality_notes": "17,065 unique comments capturing genuine Indian social media slang, abusive lexicon, and code-mixing.",
+    "license_notes": "Research dataset published with academic paper 4989-10831.",
+    "provenance": "Supplied in local project archive C:\\Users\\vivek\\Documents\\aml\\cyberbullying_dataset\\final_dataset_hinglish.csv",
+    "dataset_version": "Hinglish-Codemixed-18K-v1"
+  },
+  {
+    "dataset_id": "DS-CB-04",
+    "dataset_name": "Jigsaw Toxic Comment Classification Challenge (Train)",
+    "domain": "CYBERBULLYING",
+    "source_url": "https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge",
+    "local_path": "C:\\Users\\vivek\\Documents\\aml\\cyberbullying_dataset\\archive (1).zip::train.csv",
+    "source_type": "REAL_EXTERNAL",
+    "license": "CC0: Public Domain",
+    "access_type": "OPEN_PUBLIC",
+    "language": [
+      "English"
+    ],
+    "modality": "TEXT_ONLY",
+    "record_count": 159571,
+    "original_labels": [
+      "toxic",
+      "severe_toxic",
+      "obscene",
+      "threat",
+      "insult",
+      "identity_hate"
+    ],
+    "label_definitions": {
+      "toxic": "General rudeness, disrespect, or toxicity",
+      "severe_toxic": "Extremely hateful, aggressive, or offensive",
+      "obscene": "Vulgar or sexually explicit language",
+      "threat": "Explicit threats of physical harm, violence, or death",
+      "insult": "Direct inflammatory insults or demeaning statements",
+      "identity_hate": "Hate speech targeting race, religion, sexual orientation"
+    },
+    "timestamp_available": false,
+    "platform": "Wikipedia Talk Pages",
+    "task": "Multi-label Toxicity & Online Abuse Detection",
+    "status": "AUXILIARY",
+    "training_status": "STAGED_FOR_AUXILIARY_FEATURE_EXPANSION",
+    "evaluation_status": "PENDING",
+    "duplicate_rate": 0.0001,
+    "quality_notes": "Benchmark scale (159,571 comments). Threat (478) and Insult (7,877) directly align with CyberGuard Threat/Intimidation and Abusive/Insult classes.",
+    "license_notes": "Released by Alphabet/Conversation AI under CC0.",
+    "provenance": "Extracted in-memory from archive (1).zip in local archive.",
+    "dataset_version": "Jigsaw-Toxic-Train-v1"
+  },
+  {
+    "dataset_id": "DS-CB-05",
+    "dataset_name": "Jigsaw Toxic Comment Classification Challenge (Test & Labels)",
+    "domain": "CYBERBULLYING",
+    "source_url": "https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge",
+    "local_path": "C:\\Users\\vivek\\Documents\\aml\\cyberbullying_dataset\\archive (1).zip::test.csv & test_labels.csv",
+    "source_type": "REAL_EXTERNAL",
+    "license": "CC0: Public Domain",
+    "access_type": "OPEN_PUBLIC",
+    "language": [
+      "English"
+    ],
+    "modality": "TEXT_ONLY",
+    "record_count": 153164,
+    "original_labels": [
+      "toxic",
+      "severe_toxic",
+      "obscene",
+      "threat",
+      "insult",
+      "identity_hate"
+    ],
+    "label_definitions": {
+      "-1": "Masked / Unscored in Competition",
+      "0": "Negative",
+      "1": "Positive"
+    },
+    "timestamp_available": false,
+    "platform": "Wikipedia Talk Pages",
+    "task": "Evaluation of Multi-label Toxicity",
+    "status": "EVALUATION_ONLY",
+    "training_status": "EXCLUDED_FROM_TRAINING",
+    "evaluation_status": "EXTERNAL_BENCHMARK",
+    "duplicate_rate": 0.0001,
+    "quality_notes": "Official Kaggle competition holdout (63,978 scored labels, 89,186 masked).",
+    "license_notes": "CC0 Public Domain.",
+    "provenance": "Extracted in-memory from archive (1).zip in local archive.",
+    "dataset_version": "Jigsaw-Toxic-Test-v1"
+  },
+  {
+    "dataset_id": "DS-CB-06",
+    "dataset_name": "MultiOFF Multimodal Meme Benchmark",
+    "domain": "CYBERBULLYING",
+    "source_url": "https://huggingface.co/datasets/Ibrahim-Alam/multi-modal_offensive_meme / COLING TRAC-2 2020",
+    "local_path": "data\\external\\multioff\\multioff_catalog.csv",
+    "source_type": "REAL_EXTERNAL",
+    "license": "Research & Academic Use (TRAC-2 / COLING 2020)",
+    "access_type": "PUBLIC_ACADEMIC",
+    "language": [
+      "English"
+    ],
+    "modality": "IMAGE_AND_TEXT",
+    "record_count": 740,
+    "original_labels": [
+      "0",
+      "1"
+    ],
+    "label_definitions": {
+      "0": "Non-Offensive Meme",
+      "1": "Offensive Meme"
+    },
+    "timestamp_available": false,
+    "platform": "Web Social Media Memes (2016 US Election)",
+    "task": "Multimodal Offensive Meme Classification",
+    "status": "AVAILABLE",
+    "training_status": "TRAINED_IN_CB_MM_001",
+    "evaluation_status": "INTERNAL_VALIDATION",
+    "duplicate_rate": 0.0027,
+    "quality_notes": "740 real image files verified on disk in data/external/multioff/images/ with corresponding OCR text.",
+    "license_notes": "COLING 2020 academic publication license.",
+    "provenance": "Downloaded from HuggingFace mirror; verified physically on disk.",
+    "dataset_version": "MultiOFF-v1"
+  },
+  {
+    "dataset_id": "DS-CB-07",
+    "dataset_name": "M3 Twitter Multimodal Memes",
+    "domain": "CYBERBULLYING",
+    "source_url": "https://github.com/mira-ai-lab/M3 (ArXiv 2404.14818)",
+    "local_path": "data\\external\\m3\\m3_catalog.csv",
+    "source_type": "REAL_EXTERNAL",
+    "license": "MIT License",
+    "access_type": "OPEN_PUBLIC",
+    "language": [
+      "English",
+      "Mixed"
+    ],
+    "modality": "IMAGE_AND_TEXT",
+    "record_count": 526,
+    "original_labels": [
+      "normal",
+      "hate",
+      "racism",
+      "sexism",
+      "religion"
+    ],
+    "label_definitions": {
+      "normal": "Benign post without hate speech",
+      "hate": "General hate speech",
+      "racism": "Racist or ethnically motivated attacks",
+      "sexism": "Misogynistic or gender-based harassment",
+      "religion": "Anti-religious hate speech"
+    },
+    "timestamp_available": false,
+    "platform": "Twitter / X & 4chan",
+    "task": "Multimodal Hate Speech Classification",
+    "status": "AVAILABLE",
+    "training_status": "TRAINED_IN_CB_MM_001",
+    "evaluation_status": "INTERNAL_VALIDATION",
+    "duplicate_rate": 0.0342,
+    "quality_notes": "150 physical images on disk in data/external/m3/img/; 376 text records.",
+    "license_notes": "Open-access MIT license.",
+    "provenance": "Downloaded from official GitHub repository; verified physically on disk.",
+    "dataset_version": "M3-Twitter-v1"
+  },
+  {
+    "dataset_id": "DS-CB-08",
+    "dataset_name": "Facebook Hateful Memes (Dev Split)",
+    "domain": "CYBERBULLYING",
+    "source_url": "https://huggingface.co/datasets/neuralcatcher/hateful_memes / Meta AI NeurIPS 2020",
+    "local_path": "data\\external\\hateful_memes\\hateful_memes_catalog.csv",
+    "source_type": "REAL_EXTERNAL",
+    "license": "Meta AI Research Agreement",
+    "access_type": "RESTRICTED_RESEARCH",
+    "language": [
+      "English"
+    ],
+    "modality": "IMAGE_AND_TEXT",
+    "record_count": 500,
+    "original_labels": [
+      "0",
+      "1"
+    ],
+    "label_definitions": {
+      "0": "Not-Hateful",
+      "1": "Hateful"
+    },
+    "timestamp_available": false,
+    "platform": "Multimodal Social Media Memes",
+    "task": "Multimodal Hate Speech Detection",
+    "status": "HOLDOUT",
+    "training_status": "EXCLUDED_FROM_TRAINING",
+    "evaluation_status": "STRICT_REAL_WORLD_EXTERNAL_HOLDOUT",
+    "duplicate_rate": 0.0,
+    "quality_notes": "150 physical images on disk in data/external/hateful_memes/img/. Rigorously isolated from all training pools.",
+    "license_notes": "Research agreement for algorithmic benchmarking.",
+    "provenance": "Downloaded from HuggingFace dev split; verified physically on disk.",
+    "dataset_version": "Facebook-Hateful-Memes-Dev-v1"
+  },
+  {
+    "dataset_id": "DS-CB-09",
+    "dataset_name": "Synthetic CyberGuard Multilingual Baseline",
+    "domain": "CYBERBULLYING",
+    "source_url": "Internal CyberGuard Dataset Generator (scripts/generate_rich_dataset.py)",
+    "local_path": "data\\raw\\cyberbullying_multilingual_raw.csv",
+    "source_type": "CYBERGUARD_SYNTHETIC",
+    "license": "Internal Project License",
+    "access_type": "INTERNAL",
+    "language": [
+      "English",
+      "Hindi",
+      "Hinglish"
+    ],
+    "modality": "TEXT_ONLY",
+    "record_count": 2036,
+    "original_labels": [
+      "Age-based",
+      "Gender-based",
+      "Religion-based",
+      "Ethnicity-based",
+      "Appearance-based",
+      "Mockery/Defamation",
+      "Abusive/Insult",
+      "Threat/Intimidation",
+      "Personal Harassment",
+      "Non-cyberbullying"
+    ],
+    "label_definitions": {
+      "10 Unified CyberGuard Classes": "Equal 10-class distribution (~200 per class)"
+    },
+    "timestamp_available": false,
+    "platform": "Synthesized Conversational Prompts",
+    "task": "Multi-class Multilingual Cyberbullying Baseline Calibration",
+    "status": "AVAILABLE",
+    "training_status": "TRAINED_AS_BASELINE",
+    "evaluation_status": "INTERNAL_VALIDATION",
+    "duplicate_rate": 0.0,
+    "quality_notes": "Controlled benchmark preserving coverage across all 10 CyberGuard classes in English, Hindi, and Hinglish.",
+    "license_notes": "Internal project property.",
+    "provenance": "Synthesized via script; tracked under SOURCE = SYNTHETIC_CYBERGUARD.",
+    "dataset_version": "Synthetic-CyberGuard-v1"
+  },
+  {
+    "dataset_id": "DS-CB-10",
+    "dataset_name": "Zenodo Multimodal Toxic Memes",
+    "domain": "CYBERBULLYING",
+    "source_url": "https://zenodo.org/records/8306439",
+    "local_path": "data\\external\\zenodo_toxic_memes\\labels.csv",
+    "source_type": "REAL_EXTERNAL",
+    "license": "CC-BY 4.0",
+    "access_type": "OPEN_PUBLIC",
+    "language": [
+      "Russian"
+    ],
+    "modality": "IMAGE_AND_TEXT",
+    "record_count": 1998,
+    "original_labels": [
+      "0",
+      "1"
+    ],
+    "label_definitions": {
+      "0": "Non-Toxic",
+      "1": "Toxic"
+    },
+    "timestamp_available": false,
+    "platform": "Russian Social Media Memes",
+    "task": "Toxic Meme Classification (Cyrillic)",
+    "status": "AUXILIARY",
+    "training_status": "EXCLUDED_LANGUAGE_OUT_OF_SCOPE",
+    "evaluation_status": "UNMAPPED",
+    "duplicate_rate": 0.001,
+    "quality_notes": "Russian Cyrillic text. Monolingual Russian is outside the current target scope (English, Hindi, Hinglish).",
+    "license_notes": "CC-BY 4.0 open access.",
+    "provenance": "Ingested label catalog in data/external/zenodo_toxic_memes/labels.csv.",
+    "dataset_version": "Zenodo-Toxic-Memes-v1"
+  },
+  {
+    "dataset_id": "DS-CB-11",
+    "dataset_name": "Archive.zip Hinglish 25K (40 Tiled Templates)",
+    "domain": "CYBERBULLYING",
+    "source_url": "Unverified Kaggle upload in archive.zip",
+    "local_path": "C:\\Users\\vivek\\Documents\\aml\\cyberbullying_dataset\\archive.zip::hinglish_cyberbullying_dataset_25000.csv",
+    "source_type": "CYBERGUARD_SYNTHETIC_TILED",
+    "license": "UNKNOWN / UNVERIFIED",
+    "access_type": "UNVERIFIED",
+    "language": [
+      "Hinglish",
+      "English"
+    ],
+    "modality": "TEXT_ONLY",
+    "record_count": 25000,
+    "original_labels": [
+      "0",
+      "1"
+    ],
+    "label_definitions": {
+      "0": "Non-Offensive",
+      "1": "Offensive"
+    },
+    "timestamp_available": false,
+    "platform": "Synthetically Tiled Sentences",
+    "task": "Invalid Binary Classification",
+    "status": "EXCLUDED",
+    "training_status": "STRICTLY_PROHIBITED_FROM_TRAINING",
+    "evaluation_status": "EXCLUDED",
+    "duplicate_rate": 0.9984,
+    "quality_notes": "CRITICAL FLAW: Exactly 40 unique template sentences repeated 25,000 times (1,000x each). Guaranteed severe leakage and overfitting.",
+    "license_notes": "Excluded on quality grounds.",
+    "provenance": "Found inside C:\\Users\\vivek\\Documents\\aml\\cyberbullying_dataset\\archive.zip.",
+    "dataset_version": "Archive-Hinglish-25K-TILED-INVALID"
+  },
+  {
+    "dataset_id": "DS-WB-01",
+    "dataset_name": "Reddit LoST v1 (Loss of Self Theory)",
+    "domain": "WELLBEING",
+    "source_url": "Academic Research: Modeling Loss of Self in Mental Health Communities",
+    "local_path": "C:\\Users\\vivek\\Documents\\aml\\mental\\LoSTv1.csv",
+    "source_type": "REAL_EXTERNAL",
+    "license": "Academic Research Use Only",
+    "access_type": "PUBLIC_ACADEMIC",
+    "language": [
+      "English"
+    ],
+    "modality": "TEXT_ONLY",
+    "record_count": 3251,
+    "original_labels": [
+      "0.0",
+      "1.0"
+    ],
+    "label_definitions": {
+      "0.0": "General distress / non-loss-of-self post",
+      "1.0": "Acute Loss of Self (perceived complete helplessness, self-alienation, loss of agency)"
+    },
+    "timestamp_available": false,
+    "platform": "Reddit (Mental Health Subreddits)",
+    "task": "Loss of Self Distress Modeling",
+    "status": "AVAILABLE",
+    "training_status": "STAGED_FOR_SUPPORT_MODEL_TRAINING",
+    "evaluation_status": "PENDING",
+    "duplicate_rate": 0.012,
+    "quality_notes": "Narrative confessional text (mean length 892 chars). Ideal for training empathetic distress detection.",
+    "license_notes": "Anonymized Reddit mental health research dataset.",
+    "provenance": "Supplied in C:\\Users\\vivek\\Documents\\aml\\mental\\LoSTv1.csv.",
+    "dataset_version": "Reddit-LoST-v1"
+  },
+  {
+    "dataset_id": "DS-WB-02",
+    "dataset_name": "Reddit LoST Final Train (Cognitive Spans)",
+    "domain": "WELLBEING",
+    "source_url": "Academic Research: LoST Cognitive Attribution",
+    "local_path": "C:\\Users\\vivek\\Documents\\aml\\mental\\final_train.csv",
+    "source_type": "REAL_EXTERNAL",
+    "license": "Academic Research Use Only",
+    "access_type": "PUBLIC_ACADEMIC",
+    "language": [
+      "English"
+    ],
+    "modality": "TEXT_ONLY",
+    "record_count": 1739,
+    "original_labels": [
+      "0",
+      "1"
+    ],
+    "label_definitions": {
+      "self": "Binary loss of self indicator (0: 1,363, 1: 376)",
+      "Trigger": "Extracted text span describing stress trigger",
+      "LoST": "Extracted text span describing psychological detachment",
+      "Consequences": "Extracted text span describing behavioral consequence"
+    },
+    "timestamp_available": false,
+    "platform": "Reddit",
+    "task": "Cognitive Stress Attribution & Span Extraction",
+    "status": "AVAILABLE",
+    "training_status": "STAGED_FOR_SUPPORT_MODEL_TRAINING",
+    "evaluation_status": "PENDING",
+    "duplicate_rate": 0.008,
+    "quality_notes": "High-value annotated spans for grounding AI wellbeing responses in victim trigger analysis.",
+    "license_notes": "Academic research use.",
+    "provenance": "Supplied in C:\\Users\\vivek\\Documents\\aml\\mental\\final_train.csv.",
+    "dataset_version": "Reddit-LoST-Train-v1"
+  },
+  {
+    "dataset_id": "DS-WB-03",
+    "dataset_name": "Reddit LoST Final Test (Cognitive Spans)",
+    "domain": "WELLBEING",
+    "source_url": "Academic Research: LoST Cognitive Attribution",
+    "local_path": "C:\\Users\\vivek\\Documents\\aml\\mental\\final_test.csv",
+    "source_type": "REAL_EXTERNAL",
+    "license": "Academic Research Use Only",
+    "access_type": "PUBLIC_ACADEMIC",
+    "language": [
+      "English"
+    ],
+    "modality": "TEXT_ONLY",
+    "record_count": 435,
+    "original_labels": [
+      "0",
+      "1"
+    ],
+    "label_definitions": {
+      "self": "Binary loss of self indicator (0: 346, 1: 89)"
+    },
+    "timestamp_available": false,
+    "platform": "Reddit",
+    "task": "Cognitive Stress Evaluation Holdout",
+    "status": "HOLDOUT",
+    "training_status": "EXCLUDED_FROM_TRAINING",
+    "evaluation_status": "SUPPORT_BENCHMARK_HOLDOUT",
+    "duplicate_rate": 0.004,
+    "quality_notes": "Official benchmark holdout split for the LoST study.",
+    "license_notes": "Academic research use.",
+    "provenance": "Supplied in C:\\Users\\vivek\\Documents\\aml\\mental\\final_test.csv.",
+    "dataset_version": "Reddit-LoST-Test-v1"
+  },
+  {
+    "dataset_id": "DS-WB-04",
+    "dataset_name": "Reddit Suicide vs. Depression",
+    "domain": "WELLBEING",
+    "source_url": "Reddit API Scrape / SuicideWatch & depression Subreddits",
+    "local_path": "C:\\Users\\vivek\\Documents\\aml\\mental\\combined-set.csv",
+    "source_type": "REAL_EXTERNAL",
+    "license": "Research & Educational Use Only",
+    "access_type": "PUBLIC_ACADEMIC",
+    "language": [
+      "English"
+    ],
+    "modality": "TEXT_ONLY",
+    "record_count": 1895,
+    "original_labels": [
+      "0",
+      "1"
+    ],
+    "label_definitions": {
+      "0": "r/depression post (chronic depressive rumination without acute crisis)",
+      "1": "r/SuicideWatch post (acute crisis / imminent self-harm expression)"
+    },
+    "timestamp_available": false,
+    "platform": "Reddit",
+    "task": "Emergency Safety Escalation & Crisis Detection",
+    "status": "AVAILABLE",
+    "training_status": "STAGED_FOR_CRISIS_ESCALATION_TRAINING",
+    "evaluation_status": "PENDING",
+    "duplicate_rate": 0.005,
+    "quality_notes": "Crucial for safety triage: triggers hotline modal (Tele-MANAS 14416 / 1930) when acute crisis is detected in support chat.",
+    "license_notes": "Public Reddit data collection for suicide prevention research.",
+    "provenance": "Supplied in C:\\Users\\vivek\\Documents\\aml\\mental\\combined-set.csv.",
+    "dataset_version": "Reddit-Crisis-Triage-v1"
+  },
+  {
+    "dataset_id": "DS-WB-05",
+    "dataset_name": "GoEmotions Affective Emotion Subset",
+    "domain": "WELLBEING",
+    "source_url": "https://github.com/google-research/google-research/tree/master/goemotions",
+    "local_path": "C:\\Users\\vivek\\Documents\\aml\\mental\\goemotions_1-selected-columns.csv",
+    "source_type": "REAL_EXTERNAL",
+    "license": "Apache 2.0",
+    "access_type": "OPEN_PUBLIC",
+    "language": [
+      "English"
+    ],
+    "modality": "TEXT_ONLY",
+    "record_count": 21039,
+    "original_labels": [
+      "admiration",
+      "example_very_unclear"
+    ],
+    "label_definitions": {
+      "Emotion subset": "Affective emotion indicators on Reddit comments"
+    },
+    "timestamp_available": true,
+    "platform": "Reddit Comments",
+    "task": "Affective Emotion Modeling",
+    "status": "AUXILIARY",
+    "training_status": "STAGED_FOR_RAG_EMPATHY_ALIGNMENT",
+    "evaluation_status": "PENDING",
+    "duplicate_rate": 0.001,
+    "quality_notes": "Google Research benchmark for emotional sentiment alignment in support conversations.",
+    "license_notes": "Apache 2.0 open-source license.",
+    "provenance": "Supplied in C:\\Users\\vivek\\Documents\\aml\\mental\\goemotions_1-selected-columns.csv.",
+    "dataset_version": "GoEmotions-Subset-v1"
+  },
+  {
+    "dataset_id": "DS-WB-06",
+    "dataset_name": "Synthetic Support Wellbeing Prompts",
+    "domain": "WELLBEING",
+    "source_url": "Internal CyberGuard Wellbeing Calibration",
+    "local_path": "data\\raw\\support_wellbeing_raw.csv",
+    "source_type": "CYBERGUARD_SYNTHETIC",
+    "license": "Internal Project License",
+    "access_type": "INTERNAL",
+    "language": [
+      "English"
+    ],
+    "modality": "TEXT_ONLY",
+    "record_count": 70,
+    "original_labels": [
+      "LOW",
+      "MODERATE",
+      "HIGH",
+      "SEVERE"
+    ],
+    "label_definitions": {
+      "Stress severity tiers": "Operational triage levels for support engine"
+    },
+    "timestamp_available": false,
+    "platform": "Synthesized Support Prompts",
+    "task": "Support Triage Baseline Calibration",
+    "status": "AVAILABLE",
+    "training_status": "TRAINED_AS_BASELINE",
+    "evaluation_status": "INTERNAL_VALIDATION",
+    "duplicate_rate": 0.0,
+    "quality_notes": "Minimal baseline prompt set for stress severity classifier.",
+    "license_notes": "Internal project property.",
+    "provenance": "Tracked in data/raw/support_wellbeing_raw.csv.",
+    "dataset_version": "Synthetic-Support-v1"
+  },
+  {
+    "dataset_id": "DS-NEW-01",
+    "dataset_name": "OffensEval / OLID (Zampieri et al.)",
+    "domain": "CYBERBULLYING",
+    "source_url": "https://huggingface.co/datasets/tasksource/olid / SemEval-2019 Task 6",
+    "local_path": "EXTERNAL_PUBLIC_REPOSITORY",
+    "source_type": "REAL_EXTERNAL",
+    "license": "Research & Educational Use Only",
+    "access_type": "OPEN_PUBLIC",
+    "language": [
+      "English"
+    ],
+    "modality": "TEXT_ONLY",
+    "record_count": 14100,
+    "original_labels": [
+      "OFF",
+      "NOT",
+      "TIN",
+      "UNT",
+      "IND",
+      "GRP",
+      "OTH"
+    ],
+    "label_definitions": {
+      "OFF": "Offensive language",
+      "NOT": "Not offensive",
+      "TIN": "Targeted insult",
+      "UNT": "Untargeted profanity",
+      "IND": "Targeted at individual (Personal Harassment)",
+      "GRP": "Targeted at group (Identity/Hate)",
+      "OTH": "Targeted at other"
+    },
+    "timestamp_available": false,
+    "platform": "Twitter",
+    "task": "Hierarchical Offensive Language & Bullying Detection",
+    "status": "AVAILABLE",
+    "training_status": "CANDIDATE_FOR_FUTURE_EXPANSION",
+    "evaluation_status": "PENDING",
+    "duplicate_rate": 0.005,
+    "quality_notes": "Classic SemEval gold standard. Label 'IND' (individual targeted) directly corresponds to Personal Harassment.",
+    "license_notes": "SemEval research benchmark.",
+    "provenance": "Investigated during Phase 1 Discovery pass.",
+    "dataset_version": "OLID-2019-v1"
+  },
+  {
+    "dataset_id": "DS-NEW-02",
+    "dataset_name": "HateXplain (Mathew et al.)",
+    "domain": "CYBERBULLYING",
+    "source_url": "https://github.com/hate-alert/HateXplain / AAAI 2021",
+    "local_path": "EXTERNAL_PUBLIC_REPOSITORY",
+    "source_type": "REAL_EXTERNAL",
+    "license": "MIT License",
+    "access_type": "OPEN_PUBLIC",
+    "language": [
+      "English"
+    ],
+    "modality": "TEXT_ONLY",
+    "record_count": 20148,
+    "original_labels": [
+      "hate",
+      "offensive",
+      "normal"
+    ],
+    "label_definitions": {
+      "hate": "Hate speech",
+      "offensive": "Offensive speech",
+      "normal": "Normal"
+    },
+    "timestamp_available": false,
+    "platform": "Twitter & Gab",
+    "task": "Explainable Hate & Cyberbullying Detection with Rationales",
+    "status": "AVAILABLE",
+    "training_status": "CANDIDATE_FOR_EXPLAINABILITY_BENCHMARK",
+    "evaluation_status": "PENDING",
+    "duplicate_rate": 0.002,
+    "quality_notes": "Contains word-level rationale annotations (highlighted toxic spans) ideal for evaluating XAI attribution.",
+    "license_notes": "MIT open-source license.",
+    "provenance": "Investigated during Phase 1 Discovery pass.",
+    "dataset_version": "HateXplain-v1"
+  },
+  {
+    "dataset_id": "DS-NEW-03",
+    "dataset_name": "Dreaddit (Turcan & McKeown)",
+    "domain": "WELLBEING",
+    "source_url": "https://github.com/elena-orlova/dreaddit / EMNLP 2019",
+    "local_path": "EXTERNAL_PUBLIC_REPOSITORY",
+    "source_type": "REAL_EXTERNAL",
+    "license": "Academic Research Use",
+    "access_type": "OPEN_PUBLIC",
+    "language": [
+      "English"
+    ],
+    "modality": "TEXT_ONLY",
+    "record_count": 3553,
+    "original_labels": [
+      "0",
+      "1"
+    ],
+    "label_definitions": {
+      "0": "Non-stressed Reddit post",
+      "1": "Stressed post (acute interpersonal stress)"
+    },
+    "timestamp_available": false,
+    "platform": "Reddit (r/ptsd, r/anxiety, r/relationships, r/financial_advice)",
+    "task": "Reddit Stress Detection from Social Media Confessions",
+    "status": "AVAILABLE",
+    "training_status": "CANDIDATE_FOR_STRESS_EXPANSION",
+    "evaluation_status": "PENDING",
+    "duplicate_rate": 0.001,
+    "quality_notes": "Gold-standard academic benchmark for social media stress detection.",
+    "license_notes": "EMNLP 2019 academic paper release.",
+    "provenance": "Investigated during Phase 1 Discovery pass.",
+    "dataset_version": "Dreaddit-v1"
+  },
+  {
+    "dataset_id": "DS-NEW-04",
+    "dataset_name": "DAIC-WOZ (Distress Analysis Interview Corpus)",
+    "domain": "WELLBEING",
+    "source_url": "https://dcapswoz.ict.usc.edu/",
+    "local_path": "RESTRICTED_USC_ICT_REPOSITORY",
+    "source_type": "REAL_EXTERNAL",
+    "license": "Restricted Institutional Research Agreement",
+    "access_type": "RESTRICTED",
+    "language": [
+      "English"
+    ],
+    "modality": "AUDIO_AND_TRANSCRIPT",
+    "record_count": 189,
+    "original_labels": [
+      "PHQ-8 Score",
+      "Depression",
+      "PTSD"
+    ],
+    "label_definitions": {
+      "Clinical psychiatric metrics": "Clinical depression/PTSD scores"
+    },
+    "timestamp_available": false,
+    "platform": "Virtual Interview Transcripts",
+    "task": "Clinical Distress Evaluation",
+    "status": "RESTRICTED",
+    "training_status": "EXCLUDED_RESTRICTED_ACCESS",
+    "evaluation_status": "RESTRICTED",
+    "duplicate_rate": 0.0,
+    "quality_notes": "Clinical diagnostic interviews. Excluded due to ethical non-diagnosis policy and restricted institutional licensing.",
+    "license_notes": "Requires formal USC-ICT institutional data use agreement.",
+    "provenance": "Investigated during Phase 1 Discovery pass.",
+    "dataset_version": "DAIC-WOZ-RESTRICTED"
+  },
+  {
+    "dataset_id": "DS-NEW-05",
+    "dataset_name": "PolEval 2019 Shared Task 6",
+    "domain": "CYBERBULLYING",
+    "source_url": "Ptaszynski et al., PolEval 2019 Workshop",
+    "local_path": "NOT_FOUND_IN_LOCAL_DIRECTORIES",
+    "source_type": "REAL_EXTERNAL",
+    "license": "Open Research Evaluation (PolEval 2019)",
+    "access_type": "OPEN_PUBLIC",
+    "language": [
+      "Polish"
+    ],
+    "modality": "TEXT_ONLY",
+    "record_count": 0,
+    "original_labels": [
+      "0",
+      "1",
+      "harmful",
+      "attack",
+      "non_harmful"
+    ],
+    "label_definitions": {
+      "Subtask 6.1 & 6.2": "Polish Twitter cyberbullying annotations"
+    },
+    "timestamp_available": false,
+    "platform": "Twitter",
+    "task": "Cyberbullying Detection in Polish Twitter",
+    "status": "UNAVAILABLE",
+    "training_status": "EXCLUDED_NOT_FOUND_LOCALLY",
+    "evaluation_status": "UNAVAILABLE",
+    "duplicate_rate": 0.0,
+    "quality_notes": "Not found in supplied local directories. Polish language is out-of-scope for CyberGuard's English/Hindi/Hinglish focus.",
+    "license_notes": "Open research evaluation.",
+    "provenance": "Literature reference audited in Phase 0.",
+    "dataset_version": "PolEval-2019-UNAVAILABLE"
+  }
+]

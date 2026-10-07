@@ -1,0 +1,42 @@
+[
+  {
+    "category": "CYBERCRIME",
+    "name": "National Cyber Crime Reporting Helpline",
+    "contact_number": "1930",
+    "website": "https://cybercrime.gov.in",
+    "description": "24x7 Government of India helpline for reporting cyber fraud, online stalking, and digital harassment.",
+    "is_emergency": true
+  },
+  {
+    "category": "WOMEN_SAFETY",
+    "name": "Women Helpline (National Commission for Women)",
+    "contact_number": "1091 / 7827170170",
+    "website": "http://ncw.nic.in",
+    "description": "Dedicated round-the-clock helpline for women facing online abuse, stalking, or domestic harassment.",
+    "is_emergency": true
+  },
+  {
+    "category": "CHILD_SAFETY",
+    "name": "CHILDLINE India",
+    "contact_number": "1098",
+    "website": "https://www.childlineindia.org",
+    "description": "Emergency phone service for children and adolescents in distress or experiencing cyberbullying.",
+    "is_emergency": true
+  },
+  {
+    "category": "MENTAL_WELLBEING",
+    "name": "Tele-MANAS (Mental Health Helpline)",
+    "contact_number": "14416 / 1800-891-4416",
+    "website": "https://telemanas.mohfw.gov.in",
+    "description": "24x7 National Tele-Mental Health Programme of India providing compassionate psychological first aid and emotional support.",
+    "is_emergency": false
+  },
+  {
+    "category": "POLICE_EMERGENCY",
+    "name": "National Emergency Number",
+    "contact_number": "112",
+    "website": "https://112.gov.in",
+    "description": "Unified emergency response support system for police, fire, or medical emergencies.",
+    "is_emergency": true
+  }
+]

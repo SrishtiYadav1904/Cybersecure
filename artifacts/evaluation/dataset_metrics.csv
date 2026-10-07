@@ -1,0 +1,6 @@
+dataset_source,sample_count,accuracy,macro_f1
+Hinglish-Codemixed-18K-v1,786,0.7532,0.1963
+Kaggle-CB-Tweets-v1,3042,0.7686,0.5158
+Synthetic-CyberGuard-v1,306,0.6307,0.6291
+CyberbullyX-63K-v1,668,0.774,0.1967
+Jigsaw-Toxic-Train-v1,20,0.1,0.0455

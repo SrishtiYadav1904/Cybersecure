@@ -1,0 +1,72 @@
+[
+  {
+    "model": "SVM",
+    "model_version": "CB-EXP-002",
+    "dataset_version": "CB-DATA-002",
+    "accuracy": 0.7148,
+    "macro_f1": 0.732,
+    "weighted_f1": 0.7069,
+    "precision": 0.768,
+    "recall": 0.7141,
+    "pr_auc": 0.802,
+    "roc_auc": 0.9451,
+    "training_time_s": 8.7,
+    "inference_time_ms": 0.004
+  },
+  {
+    "model": "XGBoost",
+    "model_version": "CB-EXP-002",
+    "dataset_version": "CB-DATA-002",
+    "accuracy": 0.748,
+    "macro_f1": 0.7301,
+    "weighted_f1": 0.7435,
+    "precision": 0.833,
+    "recall": 0.6808,
+    "pr_auc": 0.8134,
+    "roc_auc": 0.9619,
+    "training_time_s": 16.83,
+    "inference_time_ms": 0.0086
+  },
+  {
+    "model": "LightGBM",
+    "model_version": "CB-EXP-002",
+    "dataset_version": "CB-DATA-002",
+    "accuracy": 0.7603,
+    "macro_f1": 0.7079,
+    "weighted_f1": 0.7569,
+    "precision": 0.7559,
+    "recall": 0.6786,
+    "pr_auc": 0.7613,
+    "roc_auc": 0.9613,
+    "training_time_s": 14.16,
+    "inference_time_ms": 0.0292
+  },
+  {
+    "model": "CatBoost",
+    "model_version": "CB-EXP-002",
+    "dataset_version": "CB-DATA-002",
+    "accuracy": 0.6518,
+    "macro_f1": 0.4541,
+    "weighted_f1": 0.6291,
+    "precision": 0.5148,
+    "recall": 0.4474,
+    "pr_auc": 0.615,
+    "roc_auc": 0.9242,
+    "training_time_s": 42.36,
+    "inference_time_ms": 0.0042
+  },
+  {
+    "model": "CyberGuard Stacking Ensemble",
+    "model_version": "CB-EXP-002",
+    "dataset_version": "CB-DATA-002",
+    "accuracy": 0.7553,
+    "macro_f1": 0.7081,
+    "weighted_f1": 0.7569,
+    "precision": 0.7539,
+    "recall": 0.676,
+    "pr_auc": 0.7718,
+    "roc_auc": 0.9523,
+    "training_time_s": 44.0,
+    "inference_time_ms": 0.0434
+  }
+]

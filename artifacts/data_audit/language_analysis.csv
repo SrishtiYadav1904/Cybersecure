@@ -1,0 +1,18 @@
+dataset_id,dataset_name,declared_language,target_alignment
+DS-CB-01,CyberbullyX-63K,Hindi / English / Hinglish,HIGH
+DS-CB-02,Kaggle Cyberbullying Tweets,English,STANDARD
+DS-CB-03,Hinglish Codemixed Dataset,Hinglish / English,HIGH
+DS-CB-04,Jigsaw Toxic Comment (Train),English,STANDARD
+DS-CB-05,Jigsaw Toxic Comment (Test & Labels),English,STANDARD
+DS-CB-06,MultiOFF Meme Dataset,English,STANDARD
+DS-CB-07,M3 Twitter Memes,English / Mixed,STANDARD
+DS-CB-08,Facebook Hateful Memes (Dev),English,STANDARD
+DS-CB-09,Synthetic CyberGuard Multilingual,English / Hindi / Hinglish,HIGH
+DS-CB-10,Zenodo Russian Toxic Memes,Russian,OUT_OF_SCOPE
+DS-CB-11,Archive.zip 25K Hinglish (Tiled),Hinglish / English,HIGH
+DS-WB-01,Reddit LoST v1,English,STANDARD
+DS-WB-02,Reddit LoST Final Train,English,STANDARD
+DS-WB-03,Reddit LoST Final Test,English,STANDARD
+DS-WB-04,Reddit Suicide vs Depression,English,STANDARD
+DS-WB-05,GoEmotions Subset,English,STANDARD
+DS-WB-06,Synthetic Support Wellbeing Prompts,English,STANDARD

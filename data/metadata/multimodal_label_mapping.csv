@@ -1,0 +1,14 @@
+source_label,source_dataset,CyberGuard_label,mapping_confidence,mapping_reason
+1,MultiOFF,Abusive/Insult,0.85,Offensive meme content directly aligns with Abusive/Insult taxonomy
+0,MultiOFF,Non-cyberbullying,0.95,Non-offensive meme content maps to benign baseline
+1,Facebook_Hateful_Memes,Abusive/Insult,0.85,Multimodal hate speech maps to Abusive/Insult / Hostility
+0,Facebook_Hateful_Memes,Non-cyberbullying,0.95,Benign / non-hateful meme maps to clean baseline
+racism,M3,Ethnicity-based,0.95,Racial hate memes directly map to Ethnicity-based cyberbullying
+sexism,M3,Gender-based,0.95,Sexism and misogynistic hate memes directly map to Gender-based cyberbullying
+religion,M3,Religion-based,0.95,Religious hate speech memes directly map to Religion-based cyberbullying
+hate,M3,Abusive/Insult,0.85,General hate label without subcategory maps to Abusive/Insult
+normal,M3,Non-cyberbullying,0.95,Normal / benign social media post maps to clean baseline
+none,M3,Non-cyberbullying,0.95,Category 'none' indicates absence of hate speech
+politics,M3,UNMAPPED / AUXILIARY,0.0,General political satire without personal targeting is out-of-taxonomy; marked UNMAPPED
+1,Zenodo_Toxic_Memes,UNMAPPED / AUXILIARY,0.0,"Russian/Cyrillic text. Monolingual Russian out of project target scope (EN, HI, Hinglish)"
+0,Zenodo_Toxic_Memes,UNMAPPED / AUXILIARY,0.0,Russian/Cyrillic text. Out of project target scope

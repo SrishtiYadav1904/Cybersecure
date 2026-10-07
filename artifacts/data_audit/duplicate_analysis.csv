@@ -1,0 +1,18 @@
+dataset_id,dataset_name,total_records,unique_records,duplicate_records,duplicate_rate_pct,status
+DS-CB-01,CyberbullyX-63K,63145,62737,408,0.65,ACCEPTABLE
+DS-CB-02,Kaggle Cyberbullying Tweets,47692,46017,1675,3.51,ACCEPTABLE
+DS-CB-03,Hinglish Codemixed Dataset,18148,17068,1080,5.95,ACCEPTABLE
+DS-CB-04,Jigsaw Toxic Comment (Train),159571,159571,0,0.0,ACCEPTABLE
+DS-CB-05,Jigsaw Toxic Comment (Test & Labels),153164,153164,0,0.0,ACCEPTABLE
+DS-CB-06,MultiOFF Meme Dataset,740,740,0,0.0,ACCEPTABLE
+DS-CB-07,M3 Twitter Memes,526,509,17,3.23,ACCEPTABLE
+DS-CB-08,Facebook Hateful Memes (Dev),500,418,82,16.4,HIGH_RETWEET
+DS-CB-09,Synthetic CyberGuard Multilingual,2036,2036,0,0.0,ACCEPTABLE
+DS-CB-10,Zenodo Russian Toxic Memes,1998,1939,59,2.95,ACCEPTABLE
+DS-CB-11,Archive.zip 25K Hinglish (Tiled),25000,40,24960,99.84,CRITICAL_TILED
+DS-WB-01,Reddit LoST v1,3251,3247,4,0.12,ACCEPTABLE
+DS-WB-02,Reddit LoST Final Train,1739,1737,2,0.12,ACCEPTABLE
+DS-WB-03,Reddit LoST Final Test,435,435,0,0.0,ACCEPTABLE
+DS-WB-04,Reddit Suicide vs Depression,1895,1864,31,1.64,ACCEPTABLE
+DS-WB-05,GoEmotions Subset,21039,0,21039,100.0,CORRUPTED_ALL_NULL
+DS-WB-06,Synthetic Support Wellbeing Prompts,70,70,0,0.0,ACCEPTABLE

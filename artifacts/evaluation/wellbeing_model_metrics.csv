@@ -1,0 +1,5 @@
+task,model_name,test_accuracy,test_macro_f1,crisis_escalation_recall,classes
+CRISIS_TRIAGE,CatBoost (Contextual 384d),0.7251,0.7063,0.5695,"[np.str_('CRISIS_ESCALATION'), np.str_('DEPRESSIVE_DISTRESS')]"
+COGNITIVE_DISTRESS,LightGBM (Contextual 384d),0.857,0.5347,,"[np.str_('LOSS_OF_SELF_DETECTED'), np.str_('NORMAL_AFFECT')]"
+STRESS_SEVERITY,Calibrated Logistic Regression (Contextual 384d),0.6521,0.4162,,"['LOW', 'MODERATE', 'HIGH', 'SEVERE']"
+CHATBOT_ACTION_POLICY,Contextual Policy Classifier (384d),0.6858,0.3586,,"[np.str_('cognitive_reframing_and_self_compassion'), np.str_('empathetic_validation_and_active_listening'), np.str_('safety_crisis_intervention_and_helpline'), np.str_('supportive_open_dialogue')]"

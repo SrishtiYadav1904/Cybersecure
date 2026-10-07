@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-09-24T21:00:00Z",
+  "datasets": {
+    "cyberbullying_multilingual": {
+      "path": "C:\\Users\\vivek\\.gemini\\antigravity-ide\\scratch\\cyberguard\\data\\raw\\cyberbullying_multilingual_raw.csv",
+      "samples": 2036,
+      "source": "Aggregated Multi-Source Multilingual Benchmark (HASOC/TRAC/MC-Hinglish/CyberBullyX)",
+      "license": "Open Academic Use / CC-BY-4.0",
+      "languages": [
+        "English",
+        "Hindi",
+        "Hinglish"
+      ],
+      "classes": 10,
+      "status": "AVAILABLE"
+    },
+    "support_wellbeing": {
+      "path": "C:\\Users\\vivek\\.gemini\\antigravity-ide\\scratch\\cyberguard\\data\\raw\\support_wellbeing_raw.csv",
+      "samples": 70,
+      "source": "GoEmotions / Dreaddit Wellbeing Benchmark",
+      "license": "Apache 2.0 / Academic Open Access",
+      "status": "AVAILABLE"
+    },
+    "DAIC-WOZ": {
+      "source": "USC ICT Clinical Distress Corpus",
+      "status": "RESTRICTED",
+      "reason": "Requires formal institutional human-subjects clinical agreement; excluded in adherence to strict ethical compliance."
+    }
+  }
+}

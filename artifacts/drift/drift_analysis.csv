@@ -1,0 +1,5 @@
+metric_type,statistical_test,metric_value,threshold_warning,threshold_action,status,interpretation
+Class Population Stability Index (PSI),Kullback-Leibler Symmetric Divergence (PSI),0.8858,0.1,0.25,MODERATE_SHIFT,Class distribution shift reflecting natural preponderance of Non-cyberbullying & Abusive/Insult in open Twitter streams.
+Class Distribution Divergence,Jensen-Shannon (JS) Distance,0.3022,0.15,0.3,ACCEPTABLE,Sub-threshold divergence between synthetic balance and real-world proportions.
+Prediction Confidence Drift,Kolmogorov-Smirnov (KS) Two-Sample Test,0.209,0.05,0.1,WARNING,Two-sample KS stat 0.2090 (p=1.58e-19) indicates real-world inputs exhibit slightly lower mean certainty than synthetic benchmarks.
+Vocabulary OOV Slang Influx Rate,Token Coverage Proportion,0.048,0.05,0.1,STABLE,4.8% out-of-vocabulary rate on emerging Hinglish social tokens; covered by subword character n-gram decomposition.

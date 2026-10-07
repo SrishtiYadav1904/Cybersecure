@@ -1,0 +1,74 @@
+{
+  "registry_version": "2.0",
+  "last_updated": "2026-09-25T18:10:00Z",
+  "models": [
+    {
+      "model_id": "CB-BASE-001",
+      "model_family": "cyberbullying_model",
+      "architecture": "GloVe(100d) -> PCA(30d) + Contextual(384d) -> Fusion(414d) -> Stacking (SVM, XGBoost, LightGBM, CatBoost -> LogisticRegression)",
+      "dataset_version": "CB-DATA-001",
+      "training_date": "2026-09-25",
+      "status": "VALIDATED",
+      "metrics": {
+        "accuracy": 0.9706,
+        "macro_f1": 0.9711,
+        "weighted_f1": 0.9705,
+        "roc_auc": 0.9996,
+        "pr_auc": 0.9968
+      },
+      "artifact_path": "trained_models/cyberbullying/CB-BASE-001",
+      "notes": "Baseline model trained strictly on synthetic multilingual benchmark. Highly accurate on synthetic data, but vulnerable to open-domain distribution shift."
+    },
+    {
+      "model_id": "CB-EXP-002",
+      "model_family": "cyberbullying_model",
+      "architecture": "GloVe(100d) -> PCA(30d) + Contextual(384d) -> Fusion(414d) -> Stacking (SVM, XGBoost, LightGBM, CatBoost -> LogisticRegression)",
+      "dataset_version": "CB-DATA-002",
+      "training_date": "2026-09-25",
+      "status": "PRODUCTION",
+      "metrics": {
+        "accuracy": 0.7553,
+        "macro_f1": 0.7081,
+        "weighted_f1": 0.7569,
+        "roc_auc": 0.9523,
+        "pr_auc": 0.7718,
+        "english_accuracy": 0.7579,
+        "hindi_accuracy": 0.7229,
+        "hinglish_accuracy": 0.7609
+      },
+      "artifact_path": "trained_models/cyberbullying/CB-EXP-002",
+      "notes": "Expanded model trained on 22,497 real social records (Kaggle Tweets, Hinglish Codemixed, CyberbullyX Hindi stream, Jigsaw threat cases). Robust real-world generalization across English, Hindi, and Hinglish."
+    },
+    {
+      "model_id": "SUP-001",
+      "model_family": "support_model",
+      "architecture": "Contextual Semantic Encoder(384d) -> Multi-Task Classifiers (CatBoost Crisis Triage + LightGBM LoST Distress + Calibrated Stress Classifier)",
+      "dataset_version": "WB-DATA-001",
+      "training_date": "2026-09-25",
+      "status": "PRODUCTION",
+      "metrics": {
+        "crisis_triage_accuracy": 0.6937,
+        "crisis_escalation_recall": 0.6803,
+        "cognitive_distress_holdout_accuracy": 0.9195,
+        "cognitive_distress_holdout_macro_f1": 0.8583,
+        "stress_calibrator_accuracy": 1.0000
+      },
+      "artifact_path": "trained_models/support/SUP-001",
+      "notes": "Dedicated wellbeing support model family. Non-diagnostic. Triggers emergency helpline modal (Tele-MANAS 14416 / Cybercrime 1930) on acute distress and grounds empathetic RAG assistance."
+    },
+    {
+      "model_id": "CB-MM-001",
+      "model_family": "multimodal_model",
+      "architecture": "Text-OCR Dual Model + Vision Prototype Features",
+      "dataset_version": "MM-DATA-001",
+      "training_date": "2026-09-25",
+      "status": "VALIDATED",
+      "metrics": {
+        "f1_score": 0.74,
+        "accuracy": 0.76
+      },
+      "artifact_path": "trained_models/multimodal_model",
+      "notes": "Multimodal meme benchmark evaluated on MultiOFF and M3 Twitter corpora."
+    }
+  ]
+}

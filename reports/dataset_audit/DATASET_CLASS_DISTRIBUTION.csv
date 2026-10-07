@@ -1,0 +1,47 @@
+Dataset,Original Label,Count,Percentage
+CyberbullyX-63K,0 (Non-cyberbullying),32940,52.17
+CyberbullyX-63K,1 (Cyberbullying),30205,47.83
+Kaggle Cyberbullying Tweets,religion,7998,16.77
+Kaggle Cyberbullying Tweets,age,7992,16.76
+Kaggle Cyberbullying Tweets,gender,7973,16.72
+Kaggle Cyberbullying Tweets,ethnicity,7961,16.69
+Kaggle Cyberbullying Tweets,not_cyberbullying,7945,16.66
+Kaggle Cyberbullying Tweets,other_cyberbullying,7823,16.4
+Jigsaw Toxic Comment (Train),toxic,15294,9.58
+Jigsaw Toxic Comment (Train),severe_toxic,1595,1.0
+Jigsaw Toxic Comment (Train),obscene,8449,5.29
+Jigsaw Toxic Comment (Train),threat,478,0.3
+Jigsaw Toxic Comment (Train),insult,7877,4.94
+Jigsaw Toxic Comment (Train),identity_hate,1405,0.88
+Jigsaw Toxic Comment (Train),clean / non-toxic,143346,89.83
+Hinglish Codemixed Cyberbullying,-1 (Cyberbullying/Abusive),11661,64.26
+Hinglish Codemixed Cyberbullying,0 (Neutral/Non-cyberbullying),6487,35.74
+Archive.zip Hinglish Cyberbullying,1 (Offensive),15000,60.0
+Archive.zip Hinglish Cyberbullying,0 (Non-Offensive),10000,40.0
+MultiOFF Multimodal Meme,0 (Non-Offensive),429,57.97
+MultiOFF Multimodal Meme,1 (Offensive),311,42.03
+M3 Twitter Multimodal,normal / none,268,50.95
+M3 Twitter Multimodal,hate (general),128,24.33
+M3 Twitter Multimodal,racism,46,8.75
+M3 Twitter Multimodal,sexism,50,9.51
+M3 Twitter Multimodal,religion,34,6.46
+Facebook Hateful Memes,0 (Not-Hateful),250,50.0
+Facebook Hateful Memes,1 (Hateful),250,50.0
+Synthetic CyberGuard Baseline,Abusive/Insult,212,10.41
+Synthetic CyberGuard Baseline,Non-cyberbullying,210,10.31
+Synthetic CyberGuard Baseline,Threat/Intimidation,208,10.22
+Synthetic CyberGuard Baseline,Religion-based,205,10.07
+Synthetic CyberGuard Baseline,Gender-based,204,10.02
+Synthetic CyberGuard Baseline,Ethnicity-based,202,9.92
+Synthetic CyberGuard Baseline,Personal Harassment,201,9.87
+Synthetic CyberGuard Baseline,Mockery/Defamation,200,9.82
+Synthetic CyberGuard Baseline,Appearance-based,198,9.72
+Synthetic CyberGuard Baseline,Age-based,196,9.63
+Reddit LoST v1,0.0 (No self-expression of risk),2540,78.13
+Reddit LoST v1,1.0 (Loss of self / mental risk),710,21.84
+Reddit Suicide vs Depression,1 (SuicideWatch post),980,51.72
+Reddit Suicide vs Depression,0 (Depression post),915,48.28
+Sample Data 1 (Reddit Suicide),1 (Suicidal expression),48,50.0
+Sample Data 1 (Reddit Suicide),0 (Control),48,50.0
+Sample Data 2 (Twitter Suicide),1 (Suicidal expression),48,50.0
+Sample Data 2 (Twitter Suicide),0 (Control),48,50.0

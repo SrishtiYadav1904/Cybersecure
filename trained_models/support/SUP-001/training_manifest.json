@@ -1,0 +1,53 @@
+{
+  "model_version": "SUP-001",
+  "dataset_version": "WB-DATA-COMBINED-002",
+  "timestamp": "2026-10-04T11:27:44Z",
+  "ethical_boundary": "Strictly non-diagnostic. Results are presented as supportive indicators and crisis triage triggers.",
+  "tasks": [
+    {
+      "task": "CRISIS_TRIAGE",
+      "model_name": "CatBoost (Contextual 384d)",
+      "test_accuracy": 0.7251,
+      "test_macro_f1": 0.7063,
+      "crisis_escalation_recall": 0.5695,
+      "classes": [
+        "CRISIS_ESCALATION",
+        "DEPRESSIVE_DISTRESS"
+      ]
+    },
+    {
+      "task": "COGNITIVE_DISTRESS",
+      "model_name": "LightGBM (Contextual 384d)",
+      "test_accuracy": 0.857,
+      "test_macro_f1": 0.5347,
+      "classes": [
+        "LOSS_OF_SELF_DETECTED",
+        "NORMAL_AFFECT"
+      ]
+    },
+    {
+      "task": "STRESS_SEVERITY",
+      "model_name": "Calibrated Logistic Regression (Contextual 384d)",
+      "test_accuracy": 0.6521,
+      "test_macro_f1": 0.4162,
+      "classes": [
+        "LOW",
+        "MODERATE",
+        "HIGH",
+        "SEVERE"
+      ]
+    },
+    {
+      "task": "CHATBOT_ACTION_POLICY",
+      "model_name": "Contextual Policy Classifier (384d)",
+      "test_accuracy": 0.6858,
+      "test_macro_f1": 0.3586,
+      "classes": [
+        "cognitive_reframing_and_self_compassion",
+        "empathetic_validation_and_active_listening",
+        "safety_crisis_intervention_and_helpline",
+        "supportive_open_dialogue"
+      ]
+    }
+  ]
+}

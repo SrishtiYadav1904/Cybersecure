@@ -1,0 +1,255 @@
+{
+  "version": "2.0.0",
+  "generated_at": "2026-09-25T17:30:00Z",
+  "standard": "Taxonomy Isolation: Cyberbullying Labels vs Wellbeing Indicators",
+  "cyberbullying_taxonomy": [
+    "Age-based",
+    "Gender-based",
+    "Religion-based",
+    "Ethnicity-based",
+    "Appearance-based",
+    "Mockery/Defamation",
+    "Abusive/Insult",
+    "Threat/Intimidation",
+    "Personal Harassment",
+    "Non-cyberbullying"
+  ],
+  "wellbeing_taxonomy": {
+    "crisis_indicator": ["CRISIS_ESCALATION", "DEPRESSIVE_DISTRESS", "STANDARD_WELLBEING"],
+    "stress_level": ["LOW", "MODERATE", "HIGH", "SEVERE"],
+    "cognitive_distress": ["LOSS_OF_SELF_DETECTED", "NORMAL_AFFECT"]
+  },
+  "mappings": [
+    {
+      "original_dataset": "Kaggle Cyberbullying Tweets",
+      "dataset_id": "DS-CB-02",
+      "original_label": "religion",
+      "original_definition": "Tweets targeting religious identity, practices, or communities",
+      "task": "CYBERBULLYING_CLASSIFICATION",
+      "normalized_label": "Religion-based",
+      "mapping_type": "DIRECT",
+      "mapping_confidence": 1.0,
+      "reason": "Exact 1-to-1 semantic match with CyberGuard Religion-based cyberbullying class."
+    },
+    {
+      "original_dataset": "Kaggle Cyberbullying Tweets",
+      "dataset_id": "DS-CB-02",
+      "original_label": "age",
+      "original_definition": "Tweets targeting individuals based on age, school harassment, or generational abuse",
+      "task": "CYBERBULLYING_CLASSIFICATION",
+      "normalized_label": "Age-based",
+      "mapping_type": "DIRECT",
+      "mapping_confidence": 1.0,
+      "reason": "Exact 1-to-1 semantic match with CyberGuard Age-based cyberbullying class."
+    },
+    {
+      "original_dataset": "Kaggle Cyberbullying Tweets",
+      "dataset_id": "DS-CB-02",
+      "original_label": "gender",
+      "original_definition": "Tweets with sexist insults, misogyny, or gender discrimination",
+      "task": "CYBERBULLYING_CLASSIFICATION",
+      "normalized_label": "Gender-based",
+      "mapping_type": "DIRECT",
+      "mapping_confidence": 1.0,
+      "reason": "Exact 1-to-1 semantic match with CyberGuard Gender-based cyberbullying class."
+    },
+    {
+      "original_dataset": "Kaggle Cyberbullying Tweets",
+      "dataset_id": "DS-CB-02",
+      "original_label": "ethnicity",
+      "original_definition": "Tweets containing racial slurs, xenophobic attacks, or ethnic vilification",
+      "task": "CYBERBULLYING_CLASSIFICATION",
+      "normalized_label": "Ethnicity-based",
+      "mapping_type": "DIRECT",
+      "mapping_confidence": 1.0,
+      "reason": "Exact 1-to-1 semantic match with CyberGuard Ethnicity-based cyberbullying class."
+    },
+    {
+      "original_dataset": "Kaggle Cyberbullying Tweets",
+      "dataset_id": "DS-CB-02",
+      "original_label": "not_cyberbullying",
+      "original_definition": "Neutral, benign, or conversational tweets with zero harassment",
+      "task": "CYBERBULLYING_CLASSIFICATION",
+      "normalized_label": "Non-cyberbullying",
+      "mapping_type": "DIRECT",
+      "mapping_confidence": 1.0,
+      "reason": "Exact 1-to-1 semantic match with CyberGuard Non-cyberbullying baseline class."
+    },
+    {
+      "original_dataset": "Kaggle Cyberbullying Tweets",
+      "dataset_id": "DS-CB-02",
+      "original_label": "other_cyberbullying",
+      "original_definition": "Aggressive, defamatory, or hostile harassment not fitting identity tags",
+      "task": "CYBERBULLYING_CLASSIFICATION",
+      "normalized_label": "Personal Harassment",
+      "mapping_type": "SAFE_MERGE",
+      "mapping_confidence": 0.85,
+      "reason": "Consists of direct personal harassment, stalkerish commentary, and hostile interpersonal targeting."
+    },
+    {
+      "original_dataset": "CyberbullyX-63K",
+      "dataset_id": "DS-CB-01",
+      "original_label": "0",
+      "original_definition": "Absence of cyberbullying in Hindi, English, and Hinglish tweets",
+      "task": "CYBERBULLYING_CLASSIFICATION",
+      "normalized_label": "Non-cyberbullying",
+      "mapping_type": "DIRECT",
+      "mapping_confidence": 0.95,
+      "reason": "Binary 0 denotes benign content across multilingual Hindi/English stream."
+    },
+    {
+      "original_dataset": "CyberbullyX-63K",
+      "dataset_id": "DS-CB-01",
+      "original_label": "1",
+      "original_definition": "Cyberbullying observed in Hindi, English, and Hinglish tweets",
+      "task": "CYBERBULLYING_CLASSIFICATION",
+      "normalized_label": "Abusive/Insult",
+      "mapping_type": "SAFE_MERGE",
+      "mapping_confidence": 0.80,
+      "reason": "Manual lexical inspection verifies >75% of positive class consists of profanities, derogatory epithets, and abusive insults."
+    },
+    {
+      "original_dataset": "Hinglish Codemixed Dataset",
+      "dataset_id": "DS-CB-03",
+      "original_label": "0",
+      "original_definition": "Non-abusive conversational Hinglish text",
+      "task": "CYBERBULLYING_CLASSIFICATION",
+      "normalized_label": "Non-cyberbullying",
+      "mapping_type": "DIRECT",
+      "mapping_confidence": 0.95,
+      "reason": "Direct mapping to non-cyberbullying class for Roman Hindi / Hinglish."
+    },
+    {
+      "original_dataset": "Hinglish Codemixed Dataset",
+      "dataset_id": "DS-CB-03",
+      "original_label": "-1",
+      "original_definition": "Abusive, vulgar, or defamatory Hinglish comment",
+      "task": "CYBERBULLYING_CLASSIFICATION",
+      "normalized_label": "Abusive/Insult",
+      "mapping_type": "SAFE_MERGE",
+      "mapping_confidence": 0.90,
+      "reason": "High density of Hindi curse words (gaaliyan), Roman Hindi derogatory slang, and abusive vocabulary."
+    },
+    {
+      "original_dataset": "Jigsaw Toxic Comment (Train)",
+      "dataset_id": "DS-CB-04",
+      "original_label": "threat",
+      "original_definition": "Threats of physical harm, death, violence, or bodily injury",
+      "task": "CYBERBULLYING_CLASSIFICATION",
+      "normalized_label": "Threat/Intimidation",
+      "mapping_type": "DIRECT",
+      "mapping_confidence": 0.95,
+      "reason": "Explicit threat definitions align perfectly with CyberGuard Threat/Intimidation."
+    },
+    {
+      "original_dataset": "Jigsaw Toxic Comment (Train)",
+      "dataset_id": "DS-CB-04",
+      "original_label": "insult",
+      "original_definition": "Insults, name-calling, and disparaging verbal abuse",
+      "task": "CYBERBULLYING_CLASSIFICATION",
+      "normalized_label": "Abusive/Insult",
+      "mapping_type": "DIRECT",
+      "mapping_confidence": 0.95,
+      "reason": "Direct alignment with CyberGuard Abusive/Insult category."
+    },
+    {
+      "original_dataset": "Jigsaw Toxic Comment (Train)",
+      "dataset_id": "DS-CB-04",
+      "original_label": "identity_hate",
+      "original_definition": "Hate speech targeting religion, race, gender, sexual orientation, disability",
+      "task": "CYBERBULLYING_CLASSIFICATION",
+      "normalized_label": "Ethnicity-based",
+      "mapping_type": "AUXILIARY",
+      "mapping_confidence": 0.70,
+      "reason": "Multi-identity attribute; preserved as auxiliary signal without corrupting granular religion/gender splits."
+    },
+    {
+      "original_dataset": "Synthetic CyberGuard Multilingual",
+      "dataset_id": "DS-CB-09",
+      "original_label": "All 10 Native Classes",
+      "original_definition": "Target CyberGuard classes natively generated in English, Hindi, and Hinglish",
+      "task": "CYBERBULLYING_CLASSIFICATION",
+      "normalized_label": "NATIVE_IDENTITY",
+      "mapping_type": "DIRECT",
+      "mapping_confidence": 1.0,
+      "reason": "Ground truth baseline training set created precisely for CyberGuard taxonomy."
+    },
+    {
+      "original_dataset": "Archive.zip 25K Hinglish (Tiled)",
+      "dataset_id": "DS-CB-11",
+      "original_label": "0, 1",
+      "original_definition": "Severely duplicated 40 template sentences repeated 25,000 times",
+      "task": "CYBERBULLYING_CLASSIFICATION",
+      "normalized_label": "EXCLUDED",
+      "mapping_type": "EXCLUDED",
+      "mapping_confidence": 0.0,
+      "reason": "99.84% mechanical duplicate rate creates extreme data leakage and overfit memorization."
+    },
+    {
+      "original_dataset": "Reddit Suicide vs Depression",
+      "dataset_id": "DS-WB-04",
+      "original_label": "1",
+      "original_definition": "Posts sourced from r/SuicideWatch indicating acute suicidal ideation",
+      "task": "WELLBEING_TRIAGE",
+      "normalized_label": "CRISIS_ESCALATION",
+      "mapping_type": "DIRECT",
+      "mapping_confidence": 0.98,
+      "reason": "Direct triage signal to trigger CyberGuard crisis escalation modal and Tele-MANAS (14416) / Cybercrime (1930) contacts."
+    },
+    {
+      "original_dataset": "Reddit Suicide vs Depression",
+      "dataset_id": "DS-WB-04",
+      "original_label": "0",
+      "original_definition": "Posts sourced from r/depression indicating severe depressive affect without acute crisis",
+      "task": "WELLBEING_TRIAGE",
+      "normalized_label": "DEPRESSIVE_DISTRESS",
+      "mapping_type": "DIRECT",
+      "mapping_confidence": 0.95,
+      "reason": "Signals deep emotional distress requiring empathetic RAG-guided wellbeing responses and consultant escalation."
+    },
+    {
+      "original_dataset": "Reddit LoST v1 & Train",
+      "dataset_id": "DS-WB-01",
+      "original_label": "1",
+      "original_definition": "Posts exhibiting acute Loss of Self cognitive distortion following online abuse",
+      "task": "WELLBEING_SUPPORT",
+      "normalized_label": "LOSS_OF_SELF_DETECTED",
+      "mapping_type": "DIRECT",
+      "mapping_confidence": 0.95,
+      "reason": "Cognitive distress signal enabling RAG support agent to identify victim triggers and cognitive reframing."
+    },
+    {
+      "original_dataset": "Reddit LoST v1 & Train",
+      "dataset_id": "DS-WB-01",
+      "original_label": "0",
+      "original_definition": "Posts without Loss of Self distortion",
+      "task": "WELLBEING_SUPPORT",
+      "normalized_label": "NORMAL_AFFECT",
+      "mapping_type": "DIRECT",
+      "mapping_confidence": 0.95,
+      "reason": "Baseline emotional affect."
+    },
+    {
+      "original_dataset": "GoEmotions Subset",
+      "dataset_id": "DS-WB-05",
+      "original_label": "all columns",
+      "original_definition": "Google Research GoEmotions sentiment labels",
+      "task": "WELLBEING_SUPPORT",
+      "normalized_label": "EXCLUDED_CORRUPT",
+      "mapping_type": "EXCLUDED",
+      "mapping_confidence": 0.0,
+      "reason": "Physical file goemotions_1-selected-columns.csv on disk contains 100% NaN entries."
+    },
+    {
+      "original_dataset": "Synthetic Support Wellbeing Prompts",
+      "dataset_id": "DS-WB-06",
+      "original_label": "LOW, MODERATE, HIGH, SEVERE",
+      "original_definition": "Calibrated stress levels for CyberGuard support system",
+      "task": "WELLBEING_SUPPORT",
+      "normalized_label": "NATIVE_IDENTITY",
+      "mapping_type": "DIRECT",
+      "mapping_confidence": 1.0,
+      "reason": "Native baseline for stress level categorization."
+    }
+  ]
+}

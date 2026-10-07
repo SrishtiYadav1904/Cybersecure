@@ -1,0 +1,5 @@
+model_name,accuracy,macro_f1,weighted_f1,precision,recall
+Support Vector Machine (SVM),0.9902,0.9908,0.9902,0.9911,0.9913
+Gradient Boosting (GB),0.8775,0.8835,0.8786,0.8889,0.8821
+Random Forest (RF),0.8775,0.8804,0.8783,0.8874,0.88
+CyberGuard Stacking Ensemble,0.9877,0.9884,0.9877,0.9892,0.9884

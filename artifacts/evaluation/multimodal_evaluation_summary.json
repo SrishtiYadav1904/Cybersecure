@@ -1,0 +1,58 @@
+{
+  "model_version": "CB-MM-001",
+  "training_timestamp": "2026-09-25T15:40:00Z",
+  "total_records": 3802,
+  "synthetic_records": 2036,
+  "external_records": 1766,
+  "sources": {
+    "MultiOFF": 740,
+    "M3_Twitter": 526,
+    "Facebook_Hateful_Memes": 500,
+    "Synthetic_CyberGuard": 2036
+  },
+  "train_samples": 2627,
+  "internal_val_samples": 657,
+  "external_holdout_samples": 500,
+  "internal_validation_metrics": {
+    "accuracy": 0.5996955859969558,
+    "macro_f1": 0.6237221416317971,
+    "weighted_f1": 0.5953842435188957,
+    "precision": 0.6736019612836223,
+    "recall": 0.5905072912716638
+  },
+  "external_holdout_metrics": {
+    "accuracy": 0.428,
+    "macro_f1": 0.08005004909879945,
+    "weighted_f1": 0.4024650131458076,
+    "precision": 0.10538575530239883,
+    "recall": 0.08490182586292426,
+    "roc_auc": NaN,
+    "pr_auc": 0.11191789988681289
+  },
+  "ablation_comparison": [
+    {
+      "modality_configuration": "TEXT ONLY",
+      "accuracy": 0.424,
+      "macro_f1": 0.0858,
+      "description": "Original embedded text without image features"
+    },
+    {
+      "modality_configuration": "OCR TEXT ONLY",
+      "accuracy": 0.2867,
+      "macro_f1": 0.0893,
+      "description": "RapidOCR extracted text without visual features"
+    },
+    {
+      "modality_configuration": "IMAGE ONLY",
+      "accuracy": 0.506,
+      "macro_f1": 0.336,
+      "description": "128d Visual features without text (visual semantics only)"
+    },
+    {
+      "modality_configuration": "IMAGE + TEXT (MULTIMODAL)",
+      "accuracy": 0.428,
+      "macro_f1": 0.0801,
+      "description": "Combined Visual (128d) + Textual (414d) fused representations"
+    }
+  ]
+}

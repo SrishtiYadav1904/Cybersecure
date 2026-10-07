@@ -1,0 +1,11 @@
+dataset_id,dataset_name,class_label,count,proportion_pct
+DS-CB-02,Kaggle Cyberbullying Tweets,religion,7998,16.77
+DS-CB-02,Kaggle Cyberbullying Tweets,age,7992,16.76
+DS-CB-02,Kaggle Cyberbullying Tweets,gender,7973,16.72
+DS-CB-02,Kaggle Cyberbullying Tweets,ethnicity,7961,16.69
+DS-CB-02,Kaggle Cyberbullying Tweets,not_cyberbullying,7945,16.66
+DS-CB-02,Kaggle Cyberbullying Tweets,other_cyberbullying,7823,16.4
+DS-CB-03,Hinglish Codemixed Dataset,-1,11661,64.26
+DS-CB-03,Hinglish Codemixed Dataset,0,6487,35.74
+DS-CB-04,Jigsaw Toxic Comment (Train),0,144277,90.42
+DS-CB-04,Jigsaw Toxic Comment (Train),1,15294,9.58

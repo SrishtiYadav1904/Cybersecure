@@ -1,0 +1,11 @@
+class_name,precision,recall,f1_score,support
+Age-based,1.0,1.0,1.0,35
+Gender-based,1.0,1.0,1.0,35
+Religion-based,1.0,0.9714,0.9855,35
+Ethnicity-based,1.0,1.0,1.0,35
+Appearance-based,0.9111,1.0,0.9535,41
+Mockery/Defamation,1.0,1.0,1.0,35
+Abusive/Insult,1.0,0.913,0.9545,46
+Threat/Intimidation,1.0,1.0,1.0,59
+Personal Harassment,1.0,1.0,1.0,35
+Non-cyberbullying,0.9811,1.0,0.9905,52

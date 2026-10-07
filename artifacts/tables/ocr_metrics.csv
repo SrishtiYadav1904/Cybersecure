@@ -1,0 +1,5 @@
+ground_truth,clean_pred,clean_conf,ocr_pred,ocr_conf,prediction_consistent
+Appearance-based,Appearance-based,0.4458,Non-cyberbullying,0.4262,False
+Abusive/Insult,Abusive/Insult,0.4927,Abusive/Insult,0.3643,True
+Threat/Intimidation,Threat/Intimidation,0.6762,Non-cyberbullying,0.426,False
+Non-cyberbullying,Non-cyberbullying,0.4293,Non-cyberbullying,0.432,True

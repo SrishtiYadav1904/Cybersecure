@@ -1,0 +1,80 @@
+[
+  {
+    "resource_id": "RES-IN-01",
+    "resource_name": "National Cyber Crime Reporting Portal (NCRP)",
+    "jurisdiction": "India (National)",
+    "category": "CYBERCRIME_REPORTING",
+    "url": "https://cybercrime.gov.in",
+    "phone": "1930",
+    "description": "Ministry of Home Affairs official portal for reporting cybercrimes against women and children, online financial fraud, cyberstalking, and non-consensual image sharing.",
+    "operating_hours": "24x7",
+    "active_status": true,
+    "last_verified_date": "2026-09-25",
+    "language_support": ["English", "Hindi", "Regional Indian Languages"]
+  },
+  {
+    "resource_id": "RES-IN-02",
+    "resource_name": "Tele-MANAS (Tele Mental Health Assistance and Networking Across States)",
+    "jurisdiction": "India (National)",
+    "category": "MENTAL_HEALTH_EMERGENCY",
+    "url": "https://telemanas.mohfw.gov.in",
+    "phone": "14416",
+    "description": "Government of India 24x7 toll-free mental health helpline providing psychological support, crisis counseling, and suicide prevention assistance operated by NIMHANS.",
+    "operating_hours": "24x7 Toll-Free",
+    "active_status": true,
+    "last_verified_date": "2026-09-25",
+    "language_support": ["English", "Hindi", "20+ Indian Languages"]
+  },
+  {
+    "resource_id": "RES-IN-03",
+    "resource_name": "KIRAN Mental Health Helpline",
+    "jurisdiction": "India (National)",
+    "category": "WELLBEING_COUNSELING",
+    "url": "https://disabilityaffairs.gov.in",
+    "phone": "1800-599-0019",
+    "description": "Ministry of Social Justice and Empowerment helpline offering early screening, psychological first aid, cognitive emotional support, and distress management.",
+    "operating_hours": "24x7",
+    "active_status": true,
+    "last_verified_date": "2026-09-25",
+    "language_support": ["English", "Hindi", "13 Regional Languages"]
+  },
+  {
+    "resource_id": "RES-IN-04",
+    "resource_name": "National Commission for Women (NCW) Cyber Cell & Helpline",
+    "jurisdiction": "India (National)",
+    "category": "WOMEN_SAFETY_CYBER",
+    "url": "http://ncw.nic.in",
+    "phone": "7827170170",
+    "description": "NCW dedicated helpline for women facing online cyber harassment, morphing, extortion, cyberstalking, and non-consensual dissemination of intimate images.",
+    "operating_hours": "24x7",
+    "active_status": true,
+    "last_verified_date": "2026-09-25",
+    "language_support": ["English", "Hindi"]
+  },
+  {
+    "resource_id": "RES-IN-05",
+    "resource_name": "Childline India Foundation",
+    "jurisdiction": "India (National)",
+    "category": "CHILD_PROTECTION",
+    "url": "https://childlineindia.org",
+    "phone": "1098",
+    "description": "Ministry of Women and Child Development emergency phone outreach service for minors and adolescents facing school cyberbullying, online grooming, or exploitation.",
+    "operating_hours": "24x7 Emergency",
+    "active_status": true,
+    "last_verified_date": "2026-09-25",
+    "language_support": ["English", "Hindi", "Regional"]
+  },
+  {
+    "resource_id": "RES-IN-06",
+    "resource_name": "Vandrevala Foundation Helpline",
+    "jurisdiction": "India / Worldwide",
+    "category": "CRISIS_COUNSELING",
+    "url": "https://vandrevalafoundation.com",
+    "phone": "+91 9999 666 555",
+    "description": "Free confidential psychological counseling and suicide prevention hotline for individuals experiencing cyberbullying-induced trauma, anxiety, and depression.",
+    "operating_hours": "24x7",
+    "active_status": true,
+    "last_verified_date": "2026-09-25",
+    "language_support": ["English", "Hindi", "Gujarati", "Marathi", "Bengali"]
+  }
+]

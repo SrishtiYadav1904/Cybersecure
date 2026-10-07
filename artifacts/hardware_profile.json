@@ -1,0 +1,29 @@
+{
+  "os": "Windows-10-10.0.26200-SP0",
+  "python_version": "3.10.11",
+  "cpu": {
+    "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+    "physical_cores": 2,
+    "logical_cores": 4,
+    "cpu_freq_mhz": 2995.0
+  },
+  "ram": {
+    "total_gb": 7.73,
+    "available_gb": 0.89,
+    "percent_used": 88.4
+  },
+  "gpu": {
+    "cuda_available": false,
+    "device_count": 0,
+    "devices": []
+  },
+  "recommended_training_config": {
+    "mode": "STANDARD",
+    "batch_size": 32,
+    "n_jobs": 3,
+    "use_gpu": false,
+    "feature_dim": 414,
+    "pca_components": 30,
+    "subword_embed_dim": 384
+  }
+}

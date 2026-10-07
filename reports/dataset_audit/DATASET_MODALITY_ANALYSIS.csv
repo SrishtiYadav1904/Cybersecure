@@ -1,0 +1,20 @@
+Dataset,Text,Image,OCR,Screenshot,Meme,Chat,Other
+CyberbullyX-63K,YES,NO,NO,NO,NO,NO,Social Media Tweets
+Kaggle Cyberbullying Tweets,YES,NO,NO,NO,NO,NO,Social Media Tweets
+Jigsaw Toxic Comment (Train),YES,NO,NO,NO,NO,NO,Wikipedia Comments
+Jigsaw Toxic Comment (Test),YES,NO,NO,NO,NO,NO,Wikipedia Comments
+Hinglish Codemixed Cyberbullying,YES,NO,NO,NO,NO,NO,YouTube/Twitter Comments
+Archive.zip Hinglish Cyberbullying,YES,NO,NO,NO,NO,NO,Synthetic Tiled Sentences
+MultiOFF Multimodal Memes,YES,YES,YES,NO,YES,NO,Web Image Memes
+M3 Twitter Multimodal Memes,YES,YES,YES,NO,YES,NO,Social Media Post Images
+Facebook Hateful Memes,YES,YES,YES,NO,YES,NO,Curated Research Memes
+Zenodo Toxic Memes,YES,NO (Labels only),NO,NO,YES,NO,Russian Memes Metadata
+Synthetic CyberGuard Baseline,YES,NO,NO,NO,NO,NO,Synthesized Sentences
+Synthetic Support Wellbeing,YES,NO,NO,NO,NO,NO,Support Prompts
+Reddit LoST v1,YES,NO,NO,NO,NO,NO,Reddit Discussion Posts
+Reddit LoST Final Train,YES,NO,NO,NO,NO,NO,Reddit Discussion Posts
+Reddit LoST Final Test,YES,NO,NO,NO,NO,NO,Reddit Discussion Posts
+Reddit Suicide vs Depression,YES,NO,NO,NO,NO,NO,Reddit Discussion Posts
+GoEmotions Selected Columns,YES,NO,NO,NO,NO,NO,Reddit Comments
+Sample Data 1 (Reddit Suicide),YES,NO,NO,NO,NO,NO,Reddit Posts
+Sample Data 2 (Twitter Suicide),YES,NO,NO,NO,NO,NO,Tweets

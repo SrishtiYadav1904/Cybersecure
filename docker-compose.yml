@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: cyberguard_backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://cyberguard:cyberguard_pass@db:5432/cyberguard_db
+      - SECRET_KEY=cyberguard-production-secret-docker-compose-key-2026
+      - ENVIRONMENT=production
+      - ACTIVE_MODEL_VERSION=CB-RO-001
+    volumes:
+      - ./uploads:/app/uploads
+      - ./artifacts:/app/artifacts
+      - ./trained_models:/app/trained_models
+    depends_on:
+      - db
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: cyberguard_frontend
+    restart: unless-stopped
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+
+  db:
+    image: postgres:15-alpine
+    container_name: cyberguard_postgres
+    restart: unless-stopped
+    environment:
+      - POSTGRES_USER=cyberguard
+      - POSTGRES_PASSWORD=cyberguard_pass
+      - POSTGRES_DB=cyberguard_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

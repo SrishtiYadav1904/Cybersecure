@@ -1,0 +1,4 @@
+language,samples,accuracy,macro_f1,weighted_f1
+English,3143,0.7579,0.6311,0.7715
+Hindi,462,0.7229,0.6134,0.7219
+Hinglish,1217,0.7609,0.6206,0.7757

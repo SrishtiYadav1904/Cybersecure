@@ -1,0 +1,18 @@
+dataset_id,dataset_name,domain,status,file_exists,file_size_bytes,sha256,record_count,columns,empty_records
+DS-CB-01,CyberbullyX-63K,CYBERBULLYING,AVAILABLE,True,6914493,72a64ab5783b39fb649814b04b4de13e164225d2e12575cace713c229f77cb14,63145,tweet_id|date|lang|text|final_label,0
+DS-CB-02,Kaggle Cyberbullying Tweets,CYBERBULLYING,AVAILABLE,True,2958784,85d4c336a54baffc35c6bb19b5bcdb105299a6028750c7a0fec7676e674d4253,47692,tweet_text|cyberbullying_type,0
+DS-CB-03,Hinglish Codemixed Dataset,CYBERBULLYING,AVAILABLE,True,4912607,22ddd5eea0d10052ad0b9dccd6e8a1fafa47aa8843cac9bdc140bc0cdf98edee,18148,headline|label,0
+DS-CB-04,Jigsaw Toxic Comment (Train),CYBERBULLYING,AUXILIARY,True,55956177,95d593f3d20503788aef54b65d85f6cb1b3d84f4e805b44d601141d56ed4b2a8,159571,id|comment_text|toxic|severe_toxic|obscene|threat|insult|identity_hate,0
+DS-CB-05,Jigsaw Toxic Comment (Test & Labels),CYBERBULLYING,EVALUATION_ONLY,True,55956177,95d593f3d20503788aef54b65d85f6cb1b3d84f4e805b44d601141d56ed4b2a8,153164,id|comment_text,0
+DS-CB-06,MultiOFF Meme Dataset,CYBERBULLYING_MULTIMODAL,AVAILABLE,True,325396,95ff26ac63edc3408638ad92b42e3e8b037f34b0dcc56246b94662ada64f2f65,740,sample_id|dataset_name|split|image_filename|local_image_path|text|source_label|source_label_name,0
+DS-CB-07,M3 Twitter Memes,CYBERBULLYING_MULTIMODAL,AVAILABLE,True,223378,310bce1aeffc3a8f04fa8c4e6bcd600e0ec8f3e7c4154890d2c822fa279a1684,526,sample_id|dataset_name|split|image_filename|local_image_path|has_image_on_disk|text|post_text,0
+DS-CB-08,Facebook Hateful Memes (Dev),CYBERBULLYING_MULTIMODAL,HOLDOUT,True,93459,7496ec9706df07319d0894fd76a7e9732f3d2634812742af76c65fefb979fb77,500,sample_id|dataset_name|split|image_filename|local_image_path|has_image_on_disk|text|source_label,0
+DS-CB-09,Synthetic CyberGuard Multilingual,CYBERBULLYING,AVAILABLE,True,245408,b4723a4a53c2b4855abc6e6aaff3720f023e69894287327a4331b65fc0564559,2036,text|raw_label|language,0
+DS-CB-10,Zenodo Russian Toxic Memes,CYBERBULLYING_MULTIMODAL,AUXILIARY,True,306493,0f6ef539b73498c44c5fcbf87567dfba4e2f2845b1a116704390a72e899437d7,1998,Unnamed: 0|image_path|text|is_toxic,51
+DS-CB-11,Archive.zip 25K Hinglish (Tiled),CYBERBULLYING,EXCLUDED,True,84917,3dd079ec2e4870ad866373f756f64cf3cde823c1e24ffcfd1115daeaf060f401,25000,ID|Text|Label,0
+DS-WB-01,Reddit LoST v1,WELLBEING,AVAILABLE,True,1963797,443cd296eb8f39d75f67e64c521e6e97218576860ac89d47ed64bbba05c7f4ea,3251,text|self,1
+DS-WB-02,Reddit LoST Final Train,WELLBEING,AVAILABLE,True,1129697,471dfe43491057353682dea5dc3c7e9f34121e6a806741f5f6d412d31e1f061d,1739,text|self|Trigger|LoST|Consequences,0
+DS-WB-03,Reddit LoST Final Test,WELLBEING,HOLDOUT,True,279977,76868f4fbeb97f88dfeaf4ae4e558b6110660de84464fa6449235717badf9748,435,text|self|Trigger|LoST|Consequences,0
+DS-WB-04,Reddit Suicide vs Depression,WELLBEING,AVAILABLE,True,4085313,8f00c4e55fbde15cd4caba729568d3036ed7b6e438b273e39b1e4d02da18b011,1895,Unnamed: 0.1|Unnamed: 0|title|selftext|author|num_comments|is_suicide|url,0
+DS-WB-05,GoEmotions Subset,WELLBEING,AUXILIARY,True,210486,1c37722e62f8aefe468ad5b389cec37a6472512b069ac0baca5e93f7f2f9278e,21039,text|id|author|subreddit|link_id|parent_id|created_utc|rater_id,21039
+DS-WB-06,Synthetic Support Wellbeing Prompts,WELLBEING,AVAILABLE,True,6990,8d481b634d65b4c8f407e0fb9a516e6dd30f6e96b0271771fd5a1698bc36e403,70,text|stress_label|emotion,0

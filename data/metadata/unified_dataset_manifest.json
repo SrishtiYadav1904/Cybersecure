@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-09-25T17:40:00Z",
+  "cyberbullying": {
+    "version": "CB-DATA-002",
+    "baseline_version": "CB-DATA-001",
+    "sources": [
+      {
+        "name": "Synthetic-CyberGuard-v1",
+        "records": 2036
+      },
+      {
+        "name": "Kaggle-CB-Tweets-v1",
+        "records": 20270
+      },
+      {
+        "name": "Hinglish-Codemixed-18K-v1",
+        "records": 4982
+      },
+      {
+        "name": "CyberbullyX-63K-v1",
+        "records": 4718
+      },
+      {
+        "name": "Jigsaw-Toxic-Train-v1",
+        "records": 133
+      }
+    ],
+    "record_count": 32139,
+    "languages": {
+      "English": 21057,
+      "Hinglish": 7841,
+      "Hindi": 3241
+    },
+    "class_distribution": {
+      "Non-cyberbullying": 7961,
+      "Abusive/Insult": 5584,
+      "Religion-based": 3671,
+      "Age-based": 3667,
+      "Ethnicity-based": 3662,
+      "Gender-based": 3607,
+      "Personal Harassment": 3182,
+      "Threat/Intimidation": 425,
+      "Appearance-based": 204,
+      "Mockery/Defamation": 176
+    },
+    "excluded_sources": [
+      {
+        "name": "Archive-Hinglish-25K-TILED",
+        "reason": "99.84% mechanical duplicate rate (only 40 unique sentences)"
+      },
+      {
+        "name": "Zenodo-Russian-Toxic-Memes",
+        "reason": "Russian language out of target scope (English/Hindi/Hinglish)"
+      },
+      {
+        "name": "PolEval-2019-SharedTask6",
+        "reason": "Polish language, not present in local directories"
+      }
+    ]
+  },
+  "wellbeing": {
+    "version": "WB-DATA-001",
+    "sources": [
+      {
+        "name": "Reddit-Crisis-Triage-v1",
+        "records": 1888
+      },
+      {
+        "name": "Reddit-LoST-v1",
+        "records": 3245
+      },
+      {
+        "name": "Synthetic-Support-v1",
+        "records": 70
+      }
+    ],
+    "record_count": 5203,
+    "languages": {
+      "English": 5203
+    },
+    "task_distribution": {
+      "COGNITIVE_DISTRESS": 3245,
+      "CRISIS_TRIAGE": 1888,
+      "STRESS_CALIBRATION": 70
+    },
+    "excluded_sources": [
+      {
+        "name": "GoEmotions-Subset-Local",
+        "reason": "Local file goemotions_1-selected-columns.csv contains 100% NaN entries"
+      },
+      {
+        "name": "DAIC-WOZ-Clinical-Interviews",
+        "reason": "Restricted institutional access; violates ethical non-diagnosis policy"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+Dataset,Language,Count,Percentage
+CyberbullyX-63K,Hindi (Devanagari & Romanized),38304,60.66
+CyberbullyX-63K,English,24683,39.09
+CyberbullyX-63K,"Other (Estonian, Tagalog, etc.)",158,0.25
+Kaggle Cyberbullying Tweets,English,47692,100.0
+Jigsaw Toxic Comment (Train),English,159571,100.0
+Jigsaw Toxic Comment (Test),English,153164,100.0
+Hinglish Codemixed Cyberbullying,Hinglish (Code-Mixed),10889,60.0
+Hinglish Codemixed Cyberbullying,English,7259,40.0
+Archive.zip Hinglish Cyberbullying,Hinglish (40 template variants),25000,100.0
+MultiOFF Multimodal Memes,English,740,100.0
+M3 Twitter Multimodal Memes,English / Mixed,526,100.0
+Facebook Hateful Memes,English,500,100.0
+Zenodo Toxic Memes,Russian (Cyrillic),1998,100.0
+Synthetic CyberGuard Baseline,English,712,34.97
+Synthetic CyberGuard Baseline,Hinglish,664,32.61
+Synthetic CyberGuard Baseline,Hindi (Devanagari),660,32.42
+Reddit LoST v1,English,3251,100.0
+Reddit LoST Final Train,English,1739,100.0
+Reddit LoST Final Test,English,435,100.0
+Reddit Suicide vs Depression,English,1895,100.0
+GoEmotions Selected Columns,English,21039,100.0
+Sample Data 1 (Reddit Suicide),English,96,100.0
+Sample Data 2 (Twitter Suicide),English,96,100.0

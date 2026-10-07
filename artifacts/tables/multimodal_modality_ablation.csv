@@ -1,0 +1,5 @@
+modality_configuration,accuracy,macro_f1,description
+TEXT ONLY,0.424,0.0858,Original embedded text without image features
+OCR TEXT ONLY,0.2867,0.0893,RapidOCR extracted text without visual features
+IMAGE ONLY,0.506,0.336,128d Visual features without text (visual semantics only)
+IMAGE + TEXT (MULTIMODAL),0.428,0.0801,Combined Visual (128d) + Textual (414d) fused representations
